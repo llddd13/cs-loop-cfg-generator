@@ -1,0 +1,10 @@
+# 换行符：仓库里统一用 LF，检出到 Windows 时按平台处理
+* text=auto
+
+# 脚本文件保持 CRLF，和游戏读取的 cfg 一致
+*.cfg text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制
+*.png binary
+*.jpg binary

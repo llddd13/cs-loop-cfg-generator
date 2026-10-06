@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 生成出来的 cfg（示例 output/ 里的 demo 是特意保留的）
+mycfg.cfg
+
+# 本地私有文件，不上传
+fw.cfg
+nb.cfg
+cfg脚本细则.txt
