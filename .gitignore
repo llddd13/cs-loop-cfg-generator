@@ -3,10 +3,9 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
-# 生成出来的 cfg（示例 output/ 里的 demo 是特意保留的）
+# 默认输出名（示例 output/ 里的 demo 是特意保留的）
 mycfg.cfg
 
-# 本地私有文件，不上传
-fw.cfg
-nb.cfg
-cfg脚本细则.txt
+# 本地私有文件放这里，不会被上传
+private/
+*.local.cfg
